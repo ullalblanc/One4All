@@ -1,0 +1,622 @@
+# CAT Character Animation Clip exported from 3dsmax on Mon Oct 17 16:02:57 2016
+
+Version = 3500
+LengthAxis = 0
+CharacterName = "H_Root"
+ClipLength = 0
+LayerRange = Interval 0 0
+Units = 0.813688
+PathNodeGuess = matrix 0 2.29873e-006 1 -1.70785e-005 -1 2.29873e-006 1 -1.70785e-005 0 -0.0194717 -0.000214174 0
+Hub {
+  # BN_Pelvis
+  ValMatrix = matrix 1.7871e-007 0.00348932 0.999994 -1.70784e-005 -0.999994 0.00348932 1 -1.70789e-005 -1.19117e-007 -0.0194776 -0.0401056 100.276
+  Limb {
+    # L
+    LimbFlags = 12
+    IKFKValues {
+      ValFloat = 0
+    }
+    LimbIKPos {
+      ValFloat = 3
+    }
+    Retargetting {
+      ValFloat = 0
+    }
+    IKTargetValues {
+      ValMatrix = matrix 3.09751e-008 -3.1236e-007 1 0.196355 -0.980533 -3.12168e-007 0.980533 0.196355 3.09715e-008 23.5887 -16.0718 2.0722e-006
+    }
+    LimbBone {
+      # BN_LThigh
+      Controller {
+        ValMatrix = matrix 0.993031 0.0442942 -0.109212 -0.064454 0.979933 -0.188618 0.0986662 0.194343 0.975959 -2.32693 6.34462 -11.8883
+      }
+      BoneSeg {
+        # BN_LThigh
+      }
+    }
+    LimbBone {
+      # BN_LCalf
+      Controller {
+        ValMatrix = matrix 0.992198 -0.124667 -0.000894184 0.124667 0.992203 0.000292785 0.000850712 -0.00040198 0.999995 3.8147e-006 -9.53679e-007 7.62936e-006
+      }
+      BoneSeg {
+        # BN_LCalf
+      }
+    }
+    Palm {
+      LMR = -1
+      Controller {
+        ValMatrix = matrix 0.222158 0.975011 -0.000291189 -0.975011 0.222158 0 6.469e-005 0.000283912 1 -1.26448 8.23427 -0.000938415
+      }
+      TargetAlignValues {
+        ValFloat = 1
+      }
+      Digit {
+        DigitSegParams {
+          # BN_LDigit11
+          Controller {
+            ValMatrix = matrix 1 2.66067e-009 0 -2.66067e-009 1 0 0 0 1 0 0 0
+          }
+        }
+        DigitSegParams {
+          # BN_LDigit12
+          Controller {
+            ValMatrix = matrix 1 2.66067e-009 0 -2.66067e-009 1 0 0 0 1 0 0 0
+          }
+        }
+      }
+    }
+  }
+  Limb {
+    # R
+    LimbFlags = 36
+    IKFKValues {
+      ValFloat = 0
+    }
+    LimbIKPos {
+      ValFloat = 3
+    }
+    Retargetting {
+      ValFloat = 0
+    }
+    IKTargetValues {
+      ValMatrix = matrix 3.09705e-008 3.12385e-007 1 -0.196354 -0.980533 3.12385e-007 0.980533 -0.196354 3.09705e-008 -23.6276 -16.0718 2.0722e-006
+    }
+    LimbBone {
+      # BN_RThigh
+      Controller {
+        ValMatrix = matrix 0.993031 0.0442906 0.109212 -0.0644504 0.979934 0.188619 -0.0986665 -0.194343 0.975959 -2.32693 6.34462 11.8883
+      }
+      BoneSeg {
+        # BN_RThigh
+      }
+    }
+    LimbBone {
+      # BN_RCalf
+      Controller {
+        ValMatrix = matrix 0.992238 -0.124343 0.00155402 0.124344 0.992235 -0.000293256 -0.00150549 0.000484209 1 7.62939e-006 0 -5.72207e-006
+      }
+      BoneSeg {
+        # BN_RCalf
+      }
+    }
+    Palm {
+      LMR = 1
+      Controller {
+        ValMatrix = matrix 0.222339 0.974969 0 -0.974969 0.222339 7.22959e-008 7.04863e-008 -1.60742e-008 1 -1.2605 8.2493 0.00082016
+      }
+      TargetAlignValues {
+        ValFloat = 1
+      }
+      Digit {
+        DigitSegParams {
+          # BN_RDigit11
+          Controller {
+            ValMatrix = matrix 1 9.12158e-008 0 -9.12158e-008 1 1.88888e-008 1.72296e-015 -1.88888e-008 1 0 0 0
+          }
+        }
+        DigitSegParams {
+          # BN_RDigit12
+          Controller {
+            ValMatrix = matrix 1 9.12158e-008 0 -9.12158e-008 1 1.88888e-008 1.72296e-015 -1.88888e-008 1 0 0 0
+          }
+        }
+      }
+    }
+  }
+  Spine {
+    # Spine
+    NumLinks = 4
+    SpineLink {
+      # BN_SpineSpine
+    }
+    SpineLink {
+      # BN_Spine2
+    }
+    SpineLink {
+      # BN_Spine3
+    }
+    SpineLink {
+      # BN_Spine4
+    }
+    AbsRelCtrl {
+      ValFloat = 1
+    }
+    Hub {
+      # BN_Ribcage
+      ValMatrix = matrix 0.999998 -0.00221634 0 0.00221634 0.999998 0 0 0 1 -1.94853 -8.63641 3.70666e-007
+      Limb {
+        # L
+        LimbFlags = 10
+        IKFKValues {
+          ValFloat = 1
+        }
+        LimbIKPos {
+          ValFloat = 3
+        }
+        Retargetting {
+          ValFloat = 0
+        }
+        CollarBone {
+          # BN_LCollarbone
+          Controller {
+            ValMatrix = matrix 0.962676 -0.232097 0.139237 0.251924 0.956446 -0.147463 -0.098947 0.177036 0.979218 3.27456 11.0374 1.88753
+          }
+        }
+        LimbBone {
+          # BN_LUpperarm
+          Controller {
+            ValMatrix = matrix 0.147907 -0.0541673 -0.987517 -0.0449741 0.997098 -0.0614289 0.987978 0.0534984 0.145042 0 0 0
+          }
+          BoneSeg {
+            # BN_LUpperarm
+          }
+        }
+        LimbBone {
+          # BN_LForearm1
+          Controller {
+            ValMatrix = matrix 0.970309 0.109052 -0.21589 -0.0942061 0.992498 0.077931 0.222769 -0.0552791 0.973303 0 0 0
+          }
+          BoneSeg {
+            # BN_LForearm1
+          }
+          BoneSeg {
+            # BN_LForearm2
+          }
+          BoneSeg {
+            # BN_LForearm3
+          }
+        }
+        Palm {
+          LMR = -1
+          Controller {
+            ValMatrix = matrix 0.999476 -0.0265792 -0.0186602 -0.0203398 -0.0643868 -0.997718 0.0253172 0.997568 -0.0648937 0 0 0
+          }
+          TargetAlignValues {
+            ValFloat = 1
+          }
+          Digit {
+            DigitSegParams {
+              # BN_LHandDigit11
+              Controller {
+                ValMatrix = matrix 0.406149 -0.827051 0.388624 0.189641 0.492306 0.849515 -0.893908 -0.271331 0.356795 0 0 0
+              }
+            }
+            DigitSegParams {
+              # BN_LHandDigit12
+              Controller {
+                ValMatrix = matrix 0.939342 0.150753 -0.308066 -0.142823 0.988571 0.0482647 0.311819 -0.00133799 0.950144 0 0 0
+              }
+            }
+            DigitSegParams {
+              # BN_LHandDigit13
+              Controller {
+                ValMatrix = matrix 0.97491 0.0652895 -0.212794 -0.0654959 0.997834 0.00608603 0.212729 0.00800381 0.977082 0 0 0
+              }
+            }
+          }
+          Digit {
+            DigitSegParams {
+              # BN_LHandDigit21
+              Controller {
+                ValMatrix = matrix 0.991271 -0.0955504 0.0907981 0.0956343 0.995414 0.00342861 -0.0907087 0.00528476 0.995864 0 0 0
+              }
+            }
+            DigitSegParams {
+              # BN_LHandDigit22
+              Controller {
+                ValMatrix = matrix 0.966652 -0.255902 0.00960145 0.255816 0.966685 0.00916964 -0.011628 -0.0064077 0.999912 0 0 0
+              }
+            }
+            DigitSegParams {
+              # BN_LHandDigit23
+              Controller {
+                ValMatrix = matrix 0.996854 -0.077778 0.0150069 0.0778158 0.99697 -0.00198866 -0.0148067 0.00315021 0.999886 0 0 0
+              }
+            }
+          }
+          Digit {
+            DigitSegParams {
+              # BN_LHandDigit31
+              Controller {
+                ValMatrix = matrix 0.98049 -0.196501 -0.00447375 0.196513 0.980501 0.00261971 0.00387171 -0.00344777 0.999987 0.192169 2.0005 0.00689411
+              }
+            }
+            DigitSegParams {
+              # BN_LHandDigit32
+              Controller {
+                ValMatrix = matrix 0.998853 -0.0471371 0.00795117 0.04707 0.99886 0.00837763 -0.00833695 -0.00799382 0.999933 0 0 0
+              }
+            }
+            DigitSegParams {
+              # BN_LHandDigit33
+              Controller {
+                ValMatrix = matrix 0.999656 -0.0212153 0.0151805 0.021288 0.999766 -0.00465624 -0.015078 0.00497784 0.999874 0 0 0
+              }
+            }
+          }
+          Digit {
+            DigitSegParams {
+              # BN_LHandDigit41
+              Controller {
+                ValMatrix = matrix 0.98948 -0.0946887 -0.109343 0.0956339 0.995414 0.00342738 0.108516 -0.0138483 0.993998 0 0 0
+              }
+            }
+            DigitSegParams {
+              # BN_LHandDigit42
+              Controller {
+                ValMatrix = matrix 0.980299 -0.196997 -0.0141212 0.197127 0.980344 0.00857444 0.0121544 -0.0111893 0.999864 0 0 0
+              }
+            }
+            DigitSegParams {
+              # BN_LHandDigit43
+              Controller {
+                ValMatrix = matrix 0.996854 -0.077778 0.0150069 0.0778158 0.99697 -0.00198866 -0.0148067 0.00315021 0.999886 0 0 0
+              }
+            }
+          }
+          Digit {
+            DigitSegParams {
+              # BN_LHandDigit51
+              Controller {
+                ValMatrix = matrix 0.963509 -0.178766 -0.199216 0.179614 0.983642 -0.0139506 0.198449 -0.0223405 0.979856 -0.317237 0.0352022 -1.36826
+              }
+            }
+            DigitSegParams {
+              # BN_LHandDigit52
+              Controller {
+                ValMatrix = matrix 0.988172 -0.14067 -0.0610063 0.141052 0.990004 0.00199032 0.0601161 -0.0105719 0.998136 0 0 0
+              }
+            }
+            DigitSegParams {
+              # BN_LHandDigit53
+              Controller {
+                ValMatrix = matrix 0.993991 -0.10841 0.0148753 0.108371 0.994109 0.00333922 -0.0151496 -0.0017071 0.999884 0 0 0
+              }
+            }
+          }
+          ArbBones {
+            ArbBone {
+              # BN_LPalm
+              Controller {
+                ValMatrix = matrix 1 0 -1.35039e-008 0 0.999996 0 1.35039e-008 0 1 2.82585 -7.62041 -1.43051e-006
+              }
+            }
+          }
+        }
+      }
+      Limb {
+        # R
+        LimbFlags = 34
+        IKFKValues {
+          ValFloat = 1
+        }
+        LimbIKPos {
+          ValFloat = 3
+        }
+        Retargetting {
+          ValFloat = 0
+        }
+        CollarBone {
+          # BN_RCollarbone
+          Controller {
+            ValMatrix = matrix 0.962676 -0.232097 -0.139237 0.251924 0.956446 0.147463 0.0989471 -0.177036 0.979218 3.27456 11.0374 -1.88753
+          }
+        }
+        LimbBone {
+          # BN_RUpperarm
+          Controller {
+            ValMatrix = matrix 0.147907 -0.0541673 0.987517 -0.0449742 0.997098 0.0614289 -0.987978 -0.0534985 0.145042 0 0 0
+          }
+          BoneSeg {
+            # BN_RUpperarm
+          }
+        }
+        LimbBone {
+          # BN_RForearm1
+          Controller {
+            ValMatrix = matrix 0.970309 0.109052 0.21589 -0.0942061 0.992498 -0.0779312 -0.222768 0.0552792 0.973303 0 0 0
+          }
+          BoneSeg {
+            # BN_RForearm1
+          }
+          BoneSeg {
+            # BN_RForearm2
+          }
+          BoneSeg {
+            # BN_RForearm3
+          }
+        }
+        Palm {
+          LMR = 1
+          Controller {
+            ValMatrix = matrix 0.999476 -0.0265791 0.0186604 -0.02034 -0.0643869 0.997718 -0.0253172 -0.997567 -0.0648938 0 0 0
+          }
+          TargetAlignValues {
+            ValFloat = 1
+          }
+          Digit {
+            DigitSegParams {
+              # BN_RHandDigit11
+              Controller {
+                ValMatrix = matrix 0.40615 -0.827052 -0.388623 0.189641 0.492306 -0.849515 0.893908 0.271332 0.356795 0 0 0
+              }
+            }
+            DigitSegParams {
+              # BN_RHandDigit12
+              Controller {
+                ValMatrix = matrix 0.939341 0.150753 0.308067 -0.142823 0.988571 -0.0482646 -0.311819 0.00133788 0.950143 0 0 0
+              }
+            }
+            DigitSegParams {
+              # BN_RHandDigit13
+              Controller {
+                ValMatrix = matrix 0.97491 0.0652895 0.212794 -0.0654958 0.997835 -0.00608625 -0.212729 -0.00800358 0.977082 0 0 0
+              }
+            }
+          }
+          Digit {
+            DigitSegParams {
+              # BN_RHandDigit21
+              Controller {
+                ValMatrix = matrix 0.991271 -0.0955503 -0.0907979 0.0956342 0.995414 -0.00342901 0.0907085 -0.00528434 0.995863 0 0 0
+              }
+            }
+            DigitSegParams {
+              # BN_RHandDigit22
+              Controller {
+                ValMatrix = matrix 0.966652 -0.255902 -0.00960138 0.255816 0.966685 -0.0091695 0.0116279 0.00640758 0.999912 0 0 0
+              }
+            }
+            DigitSegParams {
+              # BN_RHandDigit23
+              Controller {
+                ValMatrix = matrix 0.996854 -0.077778 -0.0150067 0.0778158 0.996969 0.00198859 0.0148064 -0.00315012 0.999885 0 0 0
+              }
+            }
+          }
+          Digit {
+            DigitSegParams {
+              # BN_RHandDigit31
+              Controller {
+                ValMatrix = matrix 0.98049 -0.196501 0.00447367 0.196513 0.980501 -0.00261971 -0.00387163 0.00344776 0.999987 0.192176 2.0005 -0.00689554
+              }
+            }
+            DigitSegParams {
+              # BN_RHandDigit32
+              Controller {
+                ValMatrix = matrix 0.998853 -0.0471371 -0.00795104 0.04707 0.99886 -0.00837767 0.00833682 0.00799386 0.999933 0 0 0
+              }
+            }
+            DigitSegParams {
+              # BN_RHandDigit33
+              Controller {
+                ValMatrix = matrix 0.999656 -0.0212153 -0.0151804 0.021288 0.999766 0.00465629 0.0150779 -0.00497789 0.999874 0 0 0
+              }
+            }
+          }
+          Digit {
+            DigitSegParams {
+              # BN_RHandDigit41
+              Controller {
+                ValMatrix = matrix 0.98948 -0.0946887 0.109343 0.0956339 0.995414 -0.0034278 -0.108516 0.0138487 0.993998 0 0 0
+              }
+            }
+            DigitSegParams {
+              # BN_RHandDigit42
+              Controller {
+                ValMatrix = matrix 0.980299 -0.196997 0.0141211 0.197127 0.980344 -0.00857448 -0.0121543 0.0111893 0.999864 0 0 0
+              }
+            }
+            DigitSegParams {
+              # BN_RHandDigit43
+              Controller {
+                ValMatrix = matrix 0.996854 -0.077778 -0.0150067 0.0778158 0.996969 0.00198845 0.0148065 -0.00314998 0.999885 0 0 0
+              }
+            }
+          }
+          Digit {
+            DigitSegParams {
+              # BN_RHandDigit51
+              Controller {
+                ValMatrix = matrix 0.963509 -0.178766 0.199216 0.179614 0.983642 0.0139504 -0.198449 0.0223408 0.979856 -0.317252 0.0351869 1.36826
+              }
+            }
+            DigitSegParams {
+              # BN_RHandDigit52
+              Controller {
+                ValMatrix = matrix 0.988171 -0.14067 0.0610063 0.141052 0.990004 -0.00199042 -0.060116 0.010572 0.998135 0 0 0
+              }
+            }
+            DigitSegParams {
+              # BN_RHandDigit53
+              Controller {
+                ValMatrix = matrix 0.993991 -0.10841 -0.0148752 0.108371 0.994108 -0.00333939 0.0151495 0.00170729 0.999884 0 0 0
+              }
+            }
+          }
+          ArbBones {
+            ArbBone {
+              # BN_RPalm
+              Controller {
+                ValMatrix = matrix 1 5.69147e-014 0 -5.69152e-014 0.999996 0 0 0 1 2.82585 -7.62039 2.86102e-006
+              }
+            }
+          }
+        }
+      }
+      Spine {
+        # Neck
+        NumLinks = 2
+        SpineLink {
+          # BN_Neck1
+        }
+        SpineLink {
+          # BN_Neck2
+        }
+        AbsRelCtrl {
+          ValFloat = 1
+        }
+        Hub {
+          # BN_Head
+          ValMatrix = matrix 1 2.84217e-014 -3.88433e-014 -2.84217e-014 1 0 3.88433e-014 1.10399e-027 1 -0.177826 2.4767 -3.74392e-007
+          ArbBones {
+            ArbBone {
+              # BN_DLip2
+              Controller {
+                ValMatrix = matrix -0.707107 -0.707107 0 0.707107 -0.707107 2.84357e-007 -2.01071e-007 2.01071e-007 1 -3.11309 -4.26598 8.90344e-007
+              }
+            }
+            ArbBone {
+              # BN_ULip2
+              Controller {
+                ValMatrix = matrix 1 2.84217e-014 -3.88433e-014 -2.84217e-014 1 0 3.88433e-014 1.10399e-027 1 -3.34998 16.4276 -2.47918e-006
+              }
+            }
+            ArbBone {
+              # BN_Jaw
+              Controller {
+                ValMatrix = matrix -0.707107 0.707107 -1.0677e-007 -0.707107 -0.707107 2.57766e-007 1.0677e-007 2.57766e-007 1 -4.56396 9.95346 -1.50315e-006
+              }
+            }
+            ArbBone {
+              # BN_RDEyelid
+              Controller {
+                ValMatrix = matrix 1 2.84217e-014 -3.88433e-014 -2.84217e-014 1 0 3.88433e-014 1.10399e-027 1 5.43272 14.5672 -5.08999
+              }
+            }
+            ArbBone {
+              # BN_LDEyelid
+              Controller {
+                ValMatrix = matrix 1 2.84217e-014 -3.88433e-014 -2.84217e-014 1 0 3.88433e-014 1.10399e-027 1 5.43272 14.5672 5.11749
+              }
+            }
+            ArbBone {
+              # BN_RUEyelid
+              Controller {
+                ValMatrix = matrix 1 2.84217e-014 -3.88433e-014 -2.84217e-014 1 0 3.88433e-014 1.10399e-027 1 7.80736 14.5672 -5.08999
+              }
+            }
+            ArbBone {
+              # BN_LUEyelid
+              Controller {
+                ValMatrix = matrix 1 2.84217e-014 -3.88433e-014 -2.84217e-014 1 0 3.88433e-014 1.10399e-027 1 7.80736 14.5672 5.16623
+              }
+            }
+            ArbBone {
+              # BN_ULip1
+              Controller {
+                ValMatrix = matrix 1 2.84217e-014 -3.88433e-014 -2.84217e-014 1 0 3.88433e-014 1.10399e-027 1 -3.38303 16.0616 -1.74048
+              }
+            }
+            ArbBone {
+              # BN_DLip1
+              Controller {
+                ValMatrix = matrix -0.707107 -0.707107 0 0.707107 -0.707107 2.84357e-007 -2.01071e-007 2.01071e-007 1 -3.81232 -4.3136 -1.74478
+              }
+            }
+            ArbBone {
+              # BN_RLip
+              Controller {
+                ValMatrix = matrix 1 2.84217e-014 -3.88433e-014 -2.84217e-014 1 0 3.88433e-014 1.10399e-027 1 -4.00319 14.7979 -3.59095
+              }
+            }
+            ArbBone {
+              # BN_LLip
+              Controller {
+                ValMatrix = matrix -1 8.74228e-008 0 -8.74228e-008 -1 2.84217e-014 2.4847e-021 2.84217e-014 1 -3.4156 14.7979 3.61508
+              }
+            }
+            ArbBone {
+              # BN_ULip3
+              Controller {
+                ValMatrix = matrix -1 8.74228e-008 0 -8.74228e-008 -1 2.84217e-014 2.4847e-021 2.84217e-014 1 -2.79544 16.0616 1.7892
+              }
+            }
+            ArbBone {
+              # BN_DLip3
+              Controller {
+                ValMatrix = matrix 0.707107 0.707107 -1.33362e-007 -0.707107 0.707107 -4.76837e-007 -2.42874e-007 4.31476e-007 1 -4.2278 -4.72908 1.78921
+              }
+            }
+            ArbBone {
+              # BN_REyebrow
+              Controller {
+                ValMatrix = matrix 1 2.84217e-014 -3.88433e-014 -2.84217e-014 1 0 3.88433e-014 1.10399e-027 1 8.8488 14.4984 -6.69742
+              }
+            }
+            ArbBone {
+              # BN_LEyebrow
+              Controller {
+                ValMatrix = matrix 1 2.84217e-014 -3.88433e-014 -2.84217e-014 1 0 3.88433e-014 1.10399e-027 1 8.8488 14.4986 6.71398
+              }
+            }
+            ArbBone {
+              # BN_Frown
+              Controller {
+                ValMatrix = matrix 1 2.84217e-014 -3.88433e-014 -2.84217e-014 1 0 3.88433e-014 1.10399e-027 1 6.99322 16.53 0.0248886
+              }
+            }
+            ArbBone {
+              # BN_LNouse
+              Controller {
+                ValMatrix = matrix 1 2.84217e-014 -3.88433e-014 -2.84217e-014 1 0 3.88433e-014 1.10399e-027 1 0.158508 15.6555 3.90416
+              }
+            }
+            ArbBone {
+              # BN_RNouse
+              Controller {
+                ValMatrix = matrix 1 2.84217e-014 -3.88433e-014 -2.84217e-014 1 0 3.88433e-014 1.10399e-027 1 0.162292 15.66 -3.85903
+              }
+            }
+            ArbBone {
+              # BN_RCheek
+              Controller {
+                ValMatrix = matrix 1 2.84217e-014 -3.88433e-014 -2.84217e-014 1 0 3.88433e-014 1.10399e-027 1 3.59435 13.0141 -7.75845
+              }
+            }
+            ArbBone {
+              # BN_LCheek
+              Controller {
+                ValMatrix = matrix 1 2.84217e-014 -3.88433e-014 -2.84217e-014 1 0 3.88433e-014 1.10399e-027 1 3.59435 13.0141 7.75852
+              }
+            }
+            ArbBone {
+              # BN_RDimple
+              Controller {
+                ValMatrix = matrix 1 2.84217e-014 -3.88433e-014 -2.84217e-014 1 0 3.88433e-014 1.10399e-027 1 -0.968994 9.97727 -6.94068
+              }
+            }
+            ArbBone {
+              # BN_LDimple
+              Controller {
+                ValMatrix = matrix 1 2.84217e-014 -3.88433e-014 -2.84217e-014 1 0 3.88433e-014 1.10399e-027 1 -0.968994 9.97727 6.91768
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
